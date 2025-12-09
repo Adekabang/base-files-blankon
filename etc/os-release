@@ -1,7 +1,7 @@
-PRETTY_NAME="BlankOn #OSNAME# 12 (development branch)"
-NAME="BlankOn #OSNAME#"
-ID=blankon
-HOME_URL="http://www.blankonlinux.or.id/"
-SUPPORT_URL="https://github.com/blankon/verbeek/issues"
-BUG_REPORT_URL="https://github.com/blankon/verbeek/issues"
-VERSION_CODENAME=verbeek
+PRETTY_NAME="Debian #OSNAME# forky/sid"
+NAME="Debian #OSNAME#"
+VERSION_CODENAME=forky
+ID=debian
+HOME_URL="https://www.debian.org/"
+SUPPORT_URL="https://www.debian.org/support"
+BUG_REPORT_URL="https://bugs.debian.org/"
