@@ -1,7 +1,9 @@
 Source: base-files
 Section: admin
 Priority: required
-Maintainer: Santiago Vila <sanvila@debian.org>
+Maintainer: BlankOn Developers <blankon-dev@googlegroups.com>
+XSBC-Original-Maintainer: Santiago Vila <sanvila@debian.org>
+Uploaders: Hanhan Husna <matcherapy@gmail.com>
 Standards-Version: 4.7.2
 Build-Depends: debhelper-compat (= 13), debhelper (>= 13.10~)
 Vcs-Git: https://salsa.debian.org/sanvila/base-files.git
