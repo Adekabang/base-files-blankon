@@ -3,5 +3,5 @@ NAME="BlankOn #OSNAME#"
 VERSION_CODENAME=verbeek
 ID=blankon
 HOME_URL="https://www.blankon.id/"
-SUPPORT_URL="https://www.blankon.id/#support"
-BUG_REPORT_URL="https://www.blankon.id/"
+SUPPORT_URL="https://github.com/BlankOn/Verbeek/issues"
+BUG_REPORT_URL="https://github.com/BlankOn/Verbeek/issues"
