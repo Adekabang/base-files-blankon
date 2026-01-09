@@ -1,3 +1,9 @@
+base-files (14blankon2) verbeek; urgency=medium
+
+  * edit os-release
+
+ -- Hanhan Husna <matcherapy@gmail.com>  Sat, 10 Jan 2026 00:20:03 +0700
+
 base-files (14blankon1) verbeek; urgency=medium
 
   * new upstream
