@@ -46,6 +46,8 @@ override_dh_auto_install:
 	install -p -m 644 licenses/* $(DESTDIR)/usr/share/common-licenses
 	install -p -m 644 origins/*  $(DESTDIR)/etc/dpkg/origins
 	install -p -m 644 share/*    $(DESTDIR)/usr/share/base-files
+	mkdir $(DESTDIR)/usr/share/pixmaps
+	install -p -m 644 logos/*    $(DESTDIR)/usr/share/pixmaps
 ifeq ($(DEB_HOST_GNU_SYSTEM),gnu)
 	rmdir $(DESTDIR)/sys
 endif
