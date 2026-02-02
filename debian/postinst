@@ -132,6 +132,13 @@ fi
 
 # Register BlankOn logo as vendor-logos alternative (priority 100 > Debian's 50)
 if [ "$1" = "configure" ]; then
+  # Ensure directories exist before creating symlinks
+  mkdir -p "$DPKG_ROOT/usr/share/images"
+  mkdir -p "$DPKG_ROOT/usr/share/icons/vendor/64x64/emblems"
+  mkdir -p "$DPKG_ROOT/usr/share/icons/vendor/128x128/emblems"
+  mkdir -p "$DPKG_ROOT/usr/share/icons/vendor/256x256/emblems"
+  mkdir -p "$DPKG_ROOT/usr/share/icons/vendor/scalable/emblems"
+  
   update-alternatives --install /usr/share/images/vendor-logos vendor-logos \
     /usr/share/blankon-logos 100 \
     --slave /usr/share/icons/vendor/64x64/emblems/emblem-vendor.png emblem-vendor-64 \
